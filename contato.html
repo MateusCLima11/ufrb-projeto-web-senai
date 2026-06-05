@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale com o SENAI - Contato</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img 
+                src="images/logo-senai.png" 
+                alt="Logotipo oficial do SENAI"
+                title="SENAI Oficial">
+        </figure>
+        <nav aria-label="Navegação Principal">
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre o SENAI</a></li>
+                <li><a href="cursos.html">Cursos e Programas</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Fale Conosco</h1>
+
+        <section id="formulario">
+            <h2>Atendimento ao Aluno e Empresa</h2>
+            <form action="sucesso.html" method="GET">
+                <fieldset>
+                    <legend>Preencha seus dados</legend>
+                    
+                    <p>
+                        <label for="nome">Nome completo:</label>
+                        <input 
+                            type="text" 
+                            id="nome" 
+                            name="nome" 
+                            pattern="[A-Za-zÀ-ÿ\s]+"
+                            title="Digite apenas letras" 
+                            placeholder="Ex: João da Silva"
+                            required>
+                    </p>
+                    
+                    <p>
+                        <label for="email">E-mail corporativo ou pessoal:</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="Ex: matricula@corp.com"
+                            required>
+                    </p>
+                    
+                    <p>
+                        <label for="telefone">Telefone / WhatsApp (Apenas números):</label>
+                        <input 
+                            type="tel" 
+                            id="telefone" 
+                            name="telefone" 
+                            pattern="[0-9]{10,11}" 
+                            maxlength="11" 
+                            title="Digite apenas números com DDD (10 a 11 dígitos). Ex: 71988887777"
+                            placeholder="Ex: 71988887777">
+                    </p>
+
+                    <p>
+                        <label for="assunto">Assunto do contato:</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione um assunto...</option>
+                            <option value="matricula">Informações sobre Matrícula</option>
+                            <option value="cursos">Dúvidas sobre Cursos</option>
+                            <option value="empresas">Soluções para Empresas</option>
+                            <option value="trabalhe">Trabalhe Conosco</option>
+                        </select>
+                    </p>
+                    
+                    <p>
+                        <label for="mensagem">Sua Mensagem:</label>
+                        <textarea 
+                            id="mensagem" 
+                            name="mensagem" 
+                            minlength="20" 
+                            rows="5" 
+                            placeholder="Digite sua mensagem com pelo menos 20 caracteres." 
+                            required></textarea>
+                    </p>
+                    
+                    <p>
+                        <input 
+                            type="checkbox" 
+                            id="privacidade" 
+                            name="privacidade" 
+                            required>
+                        <label for="privacidade">Li e aceito a política de privacidade e tratamento de dados (LGPD) do SENAI.</label>
+                    </p>
+                    
+                    <button type="submit">Enviar Mensagem</button>
+                    <button type="reset">Limpar Formulário</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <aside id="localizacao">
+            <h2>Onde nos encontrar em Salvador</h2>
+            
+            <article>
+                <h3>Unidade SENAI CIMATEC (Piatã)</h3>
+                <address>
+                    <p>Av. Orlando Gomes, 1845 - Piatã, Salvador - BA, 41650-010 — <a href="https://maps.google.com/?q=SENAI+CIMATEC+Salvador" target="_blank">Clique aqui para ver a localização.</a></p>
+                    <p>Telefone Central: <a href="tel:+557135344300">(71) 3534-4300</a></p>
+                </address>
+            </article>
+
+            <article>
+                <h3>Unidade SENAI Dendezeiros (Bonfim)</h3>
+                <address>
+                    <p>Av. Dendezeiros do Bonfim, 99 - Bonfim, Salvador - BA, 40415-006 — <a href="https://maps.google.com/?q=SENAI+Dendezeiros+Salvador" target="_blank">Clique aqui para ver a localização.</a></p>
+                    <p>Telefone Central: <a href="tel:+557135348090">(71) 3534-8090</a></p>
+                </address>
+            </article>
+
+            <figure>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124483.99967675276!2d-38.5471675713429!3d-12.96482161203099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71611116c2c31e9%3A0xc3485743452f1e28!2sSalvador%2C%20BA!5e0!3m2!1spt-BR!2sbr!4v1716576829471!5m2!1spt-BR!2sbr"
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    title="Mapa de localização de Salvador">
+                </iframe>
+                <figcaption>Visite-nos em uma de nossas sedes na capital baiana.</figcaption>
+            </figure>
+        </aside>
+    </main>
+
+    <footer>
+        <address>
+            <p><strong>SENAI Bahia</strong></p>
+            <p>📍 <strong>CIMATEC:</strong> Av. Orlando Gomes, 1845 - Piatã</p>
+            <p>📍 <strong>Dendezeiros:</strong> Av. Dendezeiros do Bonfim, 99 - Bonfim</p>
+            <p>Salvador - BA</p>
+        </address>
+    </footer>
+</body>
+</html>
