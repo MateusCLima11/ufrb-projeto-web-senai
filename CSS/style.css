@@ -171,6 +171,13 @@ footer a {
     margin-top: 1.5rem;
 }
 
+/* Faz com que os títulos não sejam espremidos como colunas no Grid */
+.antes-depois h2, 
+#destaques h2, 
+#lista-cursos h2 {
+    grid-column: 1 / -1;
+}
+
 /* Estilo do Cartão (Card) */
 #destaques article, 
 #lista-cursos article {
