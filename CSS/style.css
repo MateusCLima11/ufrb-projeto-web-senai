@@ -327,26 +327,38 @@ button[type="reset"]:hover {
 
 /* MOBILE / CELULARES (Até 767px) */
 @media screen and (max-width: 767px) {
-    /* Ajuste fino de tipografia para telas pequenas */
+    /* Ajuste fino de tipografia */
     h1 { font-size: 1.8rem; }
     h2 { font-size: 1.5rem; }
     
+    /* 1. Remove o "sticky" para liberar espaço na tela e diminui os espaçamentos */
     header {
+        position: relative; 
         flex-direction: column;
         text-align: center;
-        gap: 1rem;
-        padding: 1rem;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    /* Reduz a logo no celular para ganhar espaço */
+    header figure img {
+        max-height: 40px;
+        margin: 0 auto;
     }
     
+    /* 2. Menu compacto: itens lado a lado (wrap) ao invés de uma torre vertical */
     nav ul {
-        flex-direction: column;
-        gap: 0.5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.3rem;
         width: 100%;
     }
     
     nav a {
-        display: block;
-        padding: 0.8rem;
+        display: inline-block;
+        padding: 0.4rem 0.6rem;
+        font-size: 0.75rem; /* Fonte menor para caber melhor */
         background-color: var(--cor-fundo);
         border-radius: 4px;
     }
