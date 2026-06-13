@@ -327,6 +327,10 @@ button[type="reset"]:hover {
 
 /* MOBILE / CELULARES (Até 767px) */
 @media screen and (max-width: 767px) {
+    /* Ajuste fino de tipografia para telas pequenas */
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.5rem; }
+    
     header {
         flex-direction: column;
         text-align: center;
