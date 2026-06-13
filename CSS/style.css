@@ -60,6 +60,21 @@ p, ul, address {
     margin-bottom: 1rem;
 }
 
+/* --- ESTILOS DO SLOGAN DO SENAI --- */
+.slogan-senai {
+    color: var(--senai-azul);
+    text-align: center;
+    line-height: 1.4;
+}
+
+.slogan-senai .linha-vermelha {
+    display: inline-block;
+    border-bottom: 3px solid var(--senai-vermelho);
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+/* ---------------------------------- */
+
 /* Links em Geral */
 a {
     color: var(--senai-azul);
@@ -331,7 +346,7 @@ button[type="reset"]:hover {
     h1 { font-size: 1.8rem; }
     h2 { font-size: 1.5rem; }
     
-    /* 1. Remove o "sticky" para liberar espaço na tela e diminui os espaçamentos */
+    /* Remove o "sticky" para liberar espaço na tela e diminui os espaçamentos */
     header {
         position: relative; 
         flex-direction: column;
@@ -346,7 +361,7 @@ button[type="reset"]:hover {
         margin: 0 auto;
     }
     
-    /* 2. Menu compacto: itens lado a lado (wrap) ao invés de uma torre vertical */
+    /* Menu compacto: itens lado a lado (wrap) ao invés de uma torre vertical */
     nav ul {
         flex-direction: row;
         flex-wrap: wrap;
@@ -358,7 +373,7 @@ button[type="reset"]:hover {
     nav a {
         display: inline-block;
         padding: 0.4rem 0.6rem;
-        font-size: 0.75rem; /* Fonte menor para caber melhor */
+        font-size: 0.75rem; 
         background-color: var(--cor-fundo);
         border-radius: 4px;
     }
