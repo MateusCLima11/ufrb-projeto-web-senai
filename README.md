@@ -1,6 +1,6 @@
 # 🌐 Site Institucional - SENAI
 
-**🔗 Acesse o projeto online:** [https://ufrb-projeto-web-senai.vercel.app/]
+**🔗 Acesse o projeto online:** https://ufrb-projeto-web-senai.vercel.app/
 
 Este é um projeto Front-End de um site institucional desenvolvido com a identidade visual do **Serviço Nacional de Aprendizagem Industrial (SENAI)**. O foco do projeto é a utilização de HTML5 semântico e CSS3 puro, com forte ênfase em **responsividade** e **acessibilidade**.
 
