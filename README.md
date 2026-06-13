@@ -22,10 +22,10 @@ Principais alterações e implementações visuais realizadas no projeto:
 > **Nota:** Imagens representativas da versão final estilizada.
 
 ### Versão Desktop
-![Screenshot da Versão Desktop - Página Inicial](images/caminho-para-sua-imagem-desktop.png)
+![Screenshot da Versão Desktop - Página Inicial](images/imagem-desktop.png)
 
 ### Versão Mobile (Celular)
-<img src="images/caminho-para-sua-imagem-mobile.png" alt="Screenshot da Versão Mobile" width="300">
+<img src="images/imagem-mobile.png" alt="Screenshot da Versão Mobile" width="300">
 
 ---
 
